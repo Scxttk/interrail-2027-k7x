@@ -148,11 +148,11 @@ details.know .body h4{margin:12px 0 4px;font-size:15px;font-family:var(--display
 .heart.on svg{fill:currentColor}
 /* Map */
 .map{background:var(--surface);border-radius:var(--r);box-shadow:var(--shadow);padding:10px;margin:10px 0}
-.map svg{width:100%;height:auto;display:block;font-family:var(--body)}
+.map > svg{width:100%;height:auto;display:block;font-family:var(--body)}
 .map .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);padding:8px 4px 2px}
 .map .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
-.map text{fill:var(--fg)}
-.map .lbl{font-size:10px;fill:var(--muted)}
+.map > svg text{fill:var(--fg)}
+.map > svg .lbl{font-size:10px;fill:var(--muted)}
 .map circle.pin{cursor:pointer}
 .map .home{fill:var(--accent)}
 /* Calendar */
